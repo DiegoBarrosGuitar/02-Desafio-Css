@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --back-ground-white: #fff;
+    --back-ground-gray: #CCCCCC;
+    --back-ground-black:#000000;
+    --text--white: #fff;
+    --text-red: #F03C42;
+    --text-black: #000000;
+    --text-gray: #CCCCCC;
+  }
+
+* {
+    font-family: 'open-sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center; 
+    margin: 0 auto; 
+  }
+
+  nav h3 {
+    font-size: 18px;
+    color: var(--text--white);
+  }
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.img-insta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1140px;
+  top: 35px;
+  display: flex;
+ 
+} 
+
+.img-insta-a {
+  padding: 10px;
+  font-size: 14px;
+  color: var(--text--white);
+}
+
+main {
+  min-height: calc(100hv -262px);
+}
+
+#Conheça-nosso-espaco {
+    padding: 40px 20px;
+    background-color: var(--color-blue);
+    width: 100%;
+    height: 418px;
+    left: 0px;
+    top: 100px;
+  }
+
+nav h1 {
+    color: var(--text--white);
+    font-size: 32px;
+    height: 44px;
+  }
+ 
+nav h2 {
+  color: var(--text-black);
+  font-size: 20px;
+}  
+
+.description-espaco-fitness {
+    background-color: var(--back-ground-gray);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 960px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 127px;
+    left: 120px;
+    top: 204px;
+  }
+
+  .description-espaco-fitness h1 {
+    padding: 20x;
+    font-size: 14px;
+    color: var(--text-black)
+  }
+
+  .description-espaco-fitness p {
+    padding: 20x;
+    font-size: 14px;
+    color: var(--text-black)
+  }
+
+#Modalidades {
+    padding: 40px 20px;
+    background-color: var(--back-ground-black)
+    width 1200px;
+    height: 880px;
+    left: 0px;
+    top: 518px;
+  }
+
+#Modalidades h2 {
+  font-size: 32px;
+  color: var(--text-red);
+  width: 204px;
+  height: 44px;
+  left: 120px;
+  top: 538px;
+}
+
+.Modalidades-card {
+  background-color: var(--color-blue);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 960px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 106px;
+  left: 120px;
+  top: 622px;
+  align-items: center;
+  
+}
+
+.Modalidades-card h3 {
+  font-size: 20px;
+  color: var(--text--white);
+}
+
+.Modalidades-card p {
+  font-size: 14px;
+  color:var(--text-gray);
+  padding-top: 20px;
+}
+
+footer {
+  background-color: var(--back-ground-black);
+  height: 262px;
+  display: flex;
+  align-items: center; 
+  margin: 0 auto; 
+  color: var(--text--white);
+  text-align: center;
+}
+
+.container-footer-content {
+ align-items: center;
+ font-size: 14px;
+ align-items: center;
+ width: 100%;
+ max-width: 960px;
+ margin: 0 auto;
+} 
+
+.instagram {
+  font-size: 14px;
+  padding: 10px;
+}
+.instagram a {
+  padding-left: px;
+}
+
+.twiter {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.twiter img {
+  padding-right: 10px;
+}
